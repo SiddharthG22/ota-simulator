@@ -1,0 +1,104 @@
+# OTA deployment logs
+[2025-05-04 18:04:28] Applying update: v2
+[2025-05-04 18:04:28] Copied update to device directory.
+[2025-05-04 18:08:08] Applying update: v2
+[2025-05-04 18:08:08] Copied update to device directory.
+[2025-05-04 18:49:22] Applying update: v2
+[2025-05-04 18:49:22] Copied update to device directory.
+[2025-05-04 18:49:36] Applying update: v2
+[2025-05-04 18:49:36] Copied update to device directory.
+[2025-05-04 18:50:20] Applying update: v2
+[2025-05-04 18:50:20] Copied update to device directory.
+[2025-05-04 18:50:34] Applying update: v2
+[2025-05-04 18:50:34] Copied update to device directory.
+[2025-05-04 18:50:36] Build failed: time="2025-05-04T18:50:34-07:00" level=warning msg="/Users/siddharthganapathy/Desktop/ota-simulator/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+
+[2025-05-04 18:50:36] ❌ Update process failed during application.
+[2025-05-04 18:51:18] Applying update: v2
+[2025-05-04 18:51:18] Copied update to device directory.
+[2025-05-04 18:51:35] Containers rebuilt and restarted.
+[2025-05-04 18:51:35] Update applied. Verifying...
+[2025-05-04 18:51:35] device1 FAILED update verification.
+[2025-05-04 18:51:35] device2 FAILED update verification.
+[2025-05-04 18:51:35] ❌ Update failed on one or more devices.
+[2025-05-04 18:52:16] Applying update: v2
+[2025-05-04 18:52:16] Copied update to device directory.
+[2025-05-04 18:52:18] Containers rebuilt and restarted.
+[2025-05-04 18:52:18] Update applied. Verifying...
+[2025-05-04 18:52:18] device1 FAILED update verification.
+[2025-05-04 18:52:18] device2 successfully updated.
+[2025-05-04 18:52:18] ❌ Update failed on one or more devices.
+[2025-05-04 18:52:48] Applying update: v2
+[2025-05-04 18:52:48] Copied update to device directory.
+[2025-05-04 18:52:50] Containers rebuilt and restarted.
+[2025-05-04 18:52:50] Update applied. Verifying...
+[2025-05-04 18:52:50] device1 FAILED update verification.
+[2025-05-04 18:52:50] device2 successfully updated.
+[2025-05-04 18:52:50] ❌ Update failed on one or more devices.
+[2025-05-04 18:55:22] Applying update: v2
+[2025-05-04 18:55:22] Copied update to device directory.
+[2025-05-04 18:55:24] Containers rebuilt and restarted.
+[2025-05-04 18:55:24] Update applied. Verifying...
+[2025-05-04 18:55:24] device1 FAILED update verification.
+[2025-05-04 18:55:24] device2 successfully updated.
+[2025-05-04 18:55:24] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-04 18:55:24] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-04 18:55:25] [ROLLBACK] device1 rolled back to v1.
+[2025-05-04 18:55:25] ❌ Update failed on one or more devices.
+[2025-05-05 08:39:45] Applying update: v2
+[2025-05-05 08:39:45] Copied update to device directory.
+[2025-05-05 08:39:49] Containers rebuilt and restarted.
+[2025-05-05 08:39:49] Update applied. Verifying...
+[2025-05-05 08:39:50] device1 FAILED update verification.
+[2025-05-05 08:39:50] device2 FAILED update verification.
+[2025-05-05 08:39:50] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-05 08:39:50] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 08:39:50] [ROLLBACK] device1 rolled back to v1.
+[2025-05-05 08:39:50] [ROLLBACK] Rolling back device2 to v1...
+[2025-05-05 08:39:50] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 08:39:51] [ROLLBACK] device2 rolled back to v1.
+[2025-05-05 08:39:51] ❌ Update failed on one or more devices.
+[2025-05-05 08:44:35] Applying update: v2
+[2025-05-05 08:44:35] Copied update to device directory.
+[2025-05-05 08:44:37] Containers rebuilt and restarted.
+[2025-05-05 08:44:37] Update applied. Verifying...
+[2025-05-05 08:44:37] device1 FAILED update verification.
+[2025-05-05 08:44:37] device2 successfully updated.
+[2025-05-05 08:44:37] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-05 08:44:37] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 08:44:38] [ROLLBACK] device1 rolled back to v1.
+[2025-05-05 08:44:38] ❌ Update failed on one or more devices.
+[2025-05-05 08:45:02] Applying update: v2
+[2025-05-05 08:45:02] Copied update to device directory.
+[2025-05-05 08:45:04] Containers rebuilt and restarted.
+[2025-05-05 08:45:04] Update applied. Verifying...
+[2025-05-05 08:45:04] device1 FAILED update verification.
+[2025-05-05 08:45:04] device2 successfully updated.
+[2025-05-05 08:45:04] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-05 08:45:04] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 08:45:05] [ROLLBACK] device1 rolled back to v1.
+[2025-05-05 08:45:05] ❌ Update failed on one or more devices.
+[2025-05-05 08:45:12] Applying update: v2
+[2025-05-05 08:45:12] Copied update to device directory.
+[2025-05-05 08:45:13] Containers rebuilt and restarted.
+[2025-05-05 08:45:13] Update applied. Verifying...
+[2025-05-05 08:45:14] device1 FAILED update verification.
+[2025-05-05 08:45:14] device2 successfully updated.
+[2025-05-05 08:45:14] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-05 08:45:14] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 08:45:14] [ROLLBACK] device1 rolled back to v1.
+[2025-05-05 08:45:14] ❌ Update failed on one or more devices.
+[2025-05-05 09:04:29] Applying update: v2
+[2025-05-05 09:04:29] Copied update to device directory.
+[2025-05-05 09:04:34] Containers rebuilt and restarted.
+[2025-05-05 09:04:34] Update applied. Verifying...
+[2025-05-05 09:04:34] device1 FAILED update verification.
+[2025-05-05 09:04:34] device2 FAILED update verification.
+[2025-05-05 09:04:34] [ROLLBACK] Rolling back device1 to v1...
+[2025-05-05 09:04:34] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 09:04:35] [ROLLBACK] device1 rolled back to v1.
+[2025-05-05 09:04:35] [ROLLBACK] Rolling back device2 to v1...
+[2025-05-05 09:04:35] [ROLLBACK] Copied rollback version to device directory.
+[2025-05-05 09:04:35] [ROLLBACK] device2 rolled back to v1.
+[2025-05-05 09:04:35] ❌ Update failed on one or more devices.

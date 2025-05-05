@@ -1,0 +1,8 @@
+version: '3'
+services:
+  device1:
+    build: ./device
+    container_name: device1
+  device2:
+    build: ./device
+    container_name: device2
